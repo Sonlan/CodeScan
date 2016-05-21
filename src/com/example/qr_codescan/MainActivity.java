@@ -313,7 +313,7 @@ public class MainActivity extends Activity {
 		@Override
 		public void run() {
 			HttpClient httpClient = new DefaultHttpClient();
-			HttpPost httpPost = new HttpPost("http://192.168.191.1:8099/TobaccoTracings/servlet/TestExtUtils");
+			HttpPost httpPost = new HttpPost("http://192.168.191.1:8099/TobaccoTracings/remote/ext");
 			List<NameValuePair> params = new ArrayList<NameValuePair>();
 			params.add(new BasicNameValuePair("data", key));
 			params.add(new BasicNameValuePair("setting", setting));

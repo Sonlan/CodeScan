@@ -35,7 +35,7 @@ public final class R {
          */
         public static final int auto_focus=0x7f060000;
         public static final int button1=0x7f060017;
-        public static final int button_back=0x7f060023;
+        public static final int button_back=0x7f060021;
         public static final int button_back1=0x7f06001a;
         public static final int decode=0x7f060001;
         public static final int decode_failed=0x7f060002;
@@ -45,10 +45,10 @@ public final class R {
         public static final int gridview=0x7f06000c;
         public static final int include1=0x7f060012;
         public static final int launch_product_query=0x7f060006;
-        public static final int menu_custom=0x7f060028;
-        public static final int menu_logistic=0x7f060026;
-        public static final int menu_query=0x7f060027;
-        public static final int menu_settings=0x7f060025;
+        public static final int menu_custom=0x7f060026;
+        public static final int menu_logistic=0x7f060024;
+        public static final int menu_query=0x7f060025;
+        public static final int menu_settings=0x7f060023;
         public static final int preview_view=0x7f060010;
         public static final int qrcode_bitmap=0x7f060018;
         public static final int quit=0x7f060007;
@@ -60,16 +60,14 @@ public final class R {
         public static final int search_book_contents_failed=0x7f06000a;
         public static final int search_book_contents_succeeded=0x7f06000b;
         public static final int split=0x7f06000f;
-        public static final int textview_consumeAddr=0x7f06001e;
-        public static final int textview_consumeTime=0x7f06001d;
-        public static final int textview_gp=0x7f060020;
-        public static final int textview_pName=0x7f06001b;
-        public static final int textview_pd=0x7f06001f;
-        public static final int textview_price=0x7f060021;
-        public static final int textview_state=0x7f06001c;
-        public static final int textview_targetAddr=0x7f060022;
-        public static final int textview_title=0x7f060024;
+        public static final int textview_gp=0x7f06001e;
+        public static final int textview_pName=0x7f06001c;
+        public static final int textview_pd=0x7f06001d;
+        public static final int textview_price=0x7f06001f;
+        public static final int textview_targetAddr=0x7f060020;
+        public static final int textview_title=0x7f060022;
         public static final int textview_title1=0x7f060014;
+        public static final int textview_warnInfo=0x7f06001b;
         public static final int viewfinder_view=0x7f060011;
         public static final int webview=0x7f06000d;
     }

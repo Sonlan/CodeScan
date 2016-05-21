@@ -41,6 +41,20 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
 	        android:orientation="vertical" >
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+		        <TextView
+			            android:id="@+id/textview_warnInfo"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:textSize="20sp"
+			            android:layout_gravity="center"
+			            android:textColor="#cc0000"
+			            android:visibility="invisible"
+			            android:text="警示信息" />
+		    </LinearLayout>
 		    <LinearLayout
 		        android:layout_width="match_parent"
 		        android:layout_height="wrap_content"
@@ -64,72 +78,8 @@
 		            android:textColor="#000000"
 		            android:text="标题" />
 	    	</LinearLayout>
-			<LinearLayout 
-		        android:layout_width="match_parent"
-		        android:layout_height="wrap_content"
-		        android:orientation="horizontal" >
-		        <TextView
-		            android:layout_width="0dp"
-		            android:layout_height="50dp"
-		            android:layout_weight="2"
-		            android:textSize="25sp"
-		            android:layout_gravity="center"
-		            android:textColor="#000000"
-		            android:text="销售状态" />
-		        <TextView
-		            android:id="@+id/textview_state"
-		            android:layout_width="0dp"
-		            android:layout_height="50dp"
-		            android:layout_weight="3"
-		            android:textSize="25sp"
-		            android:layout_gravity="center"
-		            android:textColor="#000000"
-		            android:text="内容" />
-		    </LinearLayout>
-		    <LinearLayout 
-		        android:layout_width="match_parent"
-		        android:layout_height="wrap_content"
-		        android:orientation="horizontal" >
-		        <TextView
-		            android:layout_width="0dp"
-		            android:layout_height="50dp"
-		            android:layout_weight="2"
-		            android:textSize="25sp"
-		            android:layout_gravity="center"
-		            android:textColor="#000000"
-		            android:text="销售时间" />
-		        <TextView
-		            android:id="@+id/textview_consumeTime"
-		            android:layout_width="0dp"
-		            android:layout_height="50dp"
-		            android:layout_weight="3"
-		            android:textSize="25sp"
-		            android:layout_gravity="center"
-		            android:textColor="#000000"
-		            android:text="内容" />
-		    </LinearLayout>
-		    <LinearLayout 
-		        android:layout_width="match_parent"
-		        android:layout_height="wrap_content"
-		        android:orientation="horizontal" >
-		        <TextView
-		            android:layout_width="0dp"
-		            android:layout_height="50dp"
-		            android:layout_weight="2"
-		            android:textSize="25sp"
-		            android:layout_gravity="center"
-		            android:textColor="#000000"
-		            android:text="销售地点" />
-		        <TextView
-		            android:id="@+id/textview_consumeAddr"
-		            android:layout_width="0dp"
-		            android:layout_height="70dp"
-		            android:layout_weight="3"
-		            android:textSize="25sp"
-		            android:layout_gravity="center"
-		            android:textColor="#000000"
-		            android:text="标题" />
-		    </LinearLayout>
+
+		   
 		    <LinearLayout 
 		        android:layout_width="match_parent"
 		        android:layout_height="wrap_content"
