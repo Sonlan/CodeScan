@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+     android:id="@+id/menu_logistic"  
+     android:title="物流"
+     android:checkable="true"/>  
+    <item  
+        android:id="@+id/menu_query"  
+        android:title="查询"
+        android:checkable="true"/> 
+     <item  
+        android:id="@+id/menu_custom"  
+        android:title="消费"
+        android:checkable="true"/> 
+
+</menu>
